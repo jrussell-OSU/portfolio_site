@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.skills {
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+.skills-list {
+  color: white;
+  font-weight: 600;
+  font-size: 18;
+  list-style: none;
+}
