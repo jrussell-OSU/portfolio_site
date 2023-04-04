@@ -7,21 +7,22 @@ const NavbarMain = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand className="navbar-title" href="#home">
+          Jacob Russell's Portfolio
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+            <Nav.Link href="https://www.linkedin.com/in/jacob-russell-49768326a/">
+              LinkedIn
+            </Nav.Link>
+            <NavDropdown title="My Work" id="basic-nav-dropdown">
+              <NavDropdown.Item href="https://www.jacobrussell.me">
+                Game of Life
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+              <NavDropdown.Item href="https://github.com/jrussell-OSU">
+                My Github
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

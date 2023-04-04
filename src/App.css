@@ -1,39 +1,60 @@
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #282c33 !important;
+  /*background-image: url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');*/
+  background-image: url('https://unsplash.com/photos/k9TDpGMDavs/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTcyfHx0ZWNoJTIwYWJzdHJhY3R8ZW58MHx8fHwxNjgwNTY4ODc0&force=true&w=2400');
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+ background-attachment: fixed;
+}
+
 .App {
   text-align: center;
-  background-color: #282c33;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div {
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c33;
-  min-height: 100vh;
+.skills-list, .experience-list, .contact-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f1f1f1;
+  align-items: left;
+  text-align: left;
+  font-weight: 600;
+  padding-left: 15px;
+  font-size: 1.5em;
 }
 
-.App-link {
-  color: #61dafb;
+.skills, .experience, .contact, .prior-experience {
+  list-style: none;
+  text-align: left;
+  padding-left: 10px;
+  font-size: .70em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills-button, .experience-button, .contact-button {
+  background-color: #e4e5e6;
+  border: none;
+  border-radius: 15px;
+  color: #282C33;
+}
+
+.prior-experience-button{
+  background-color: #979797;
+  border: none;
+  border-radius: 15px;
+  color: #282C33;
+  font-size: .75em;
+}
+
+.navbar-title {
+  font-size: 1.5em !important;
 }

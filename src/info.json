@@ -1,0 +1,87 @@
+
+{
+  "skills": [
+    "Clean Code",
+    "Python",
+    "Javascript",
+    "Bootstrap",
+    "Node.js",
+    "Express",
+    "React",
+    "Material UI",
+    "AJAX",
+    "C/C++",
+    "Java",
+    "Google Cloud Platform",
+    "HTML/CSS",
+    "RESTful APIs",
+    "Git",
+    "Testing/TDD",
+    "Databases",
+    "SQL: MariaDB",
+    "NoSQL: MongoDB, Firestore",
+    "Docker",
+    "Agile"
+  ],
+  "currentExperience": [
+      {
+          "name": "BELCo",
+          "startDate": "January 2023",
+          "endDate": "Current",
+          "title": "Software Developer",
+          "location": "Corvallis, OR",
+          "description": "Contract work. Full stack complex web application development utilizing JavaScript, Node, Express, React, MongoDB, Docker"
+      },
+      {
+          "name": "PrimeCare of Novi",
+          "startDate": "November 2018",
+          "endDate": "Current",
+          "title": "IT Support & Medical Biller",
+          "location": "Novi, MI",
+          "description": "On-site IT support and medical billing"
+      }
+  ],
+  "pastExperience": [
+    {
+      "name": "Ya Tro M.D. Urgent Care",
+      "startDate": "2017",
+      "endDate": "2018",
+      "title": "Medical Biller",
+      "location": "Woodhaven, MI"
+    },
+    {
+      "name": "Four Seasons Compassion for Life",
+      "startDate": "2014",
+      "endDate": "2016",
+      "title": "Medical Biller",
+      "location": "Hendersoville, NC"
+    },
+    {
+      "name": "Aeroflow Healthcare",
+      "startDate": "2011",
+      "endDate": "2014",
+      "title": "Inventory, Purchasing, & Medical Biller",
+      "location": "Asheville, NC"
+    }
+  ],
+  "education": [
+    {
+      "name": "Oregon State University",
+      "degree": "Bachelor's of Computer Science",
+      "gpa": "4.0",
+      "graduationDate": "March 2023"
+    },
+    {
+      "name": "University of North Carolina",
+      "degree": "Master's of Liberal Arts and Sciences"
+    },
+    {
+      "name": "Western Michigan University",
+      "degree": "Bachelor's of English"
+    }
+  ],
+  "contact": [
+    "jacob.r.russell@gmail.com",
+    "russelj2@oregonstate.edu"
+  ]
+}
