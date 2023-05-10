@@ -1,6 +1,6 @@
 html {
   margin: 0px;
-  height: 100%;
+  height: 101%;
   width: 100%;
 }
 
@@ -21,6 +21,17 @@ body {
 }
 
 .main-div {
+  align-items: left;
+  text-align: left;
+
+}
+
+.resume-div {
+  padding-left: 15px;
+}
+
+.resume-doc {
+  padding-top: 10px;
 }
 
 .skills-list, .experience-list, .contact-list {
@@ -40,8 +51,21 @@ body {
   font-size: .70em;
 }
 
-.skills-button, .experience-button, .contact-button {
-  background-color: #e4e5e6;
+.resume-button-div {
+}
+
+.download-button-div {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.button-main {
+  border: none;
+  border-radius: 15px;
+  color: #282C33;
+}
+
+.button-secondary {
   border: none;
   border-radius: 15px;
   color: #282C33;

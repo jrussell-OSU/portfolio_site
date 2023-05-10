@@ -1,6 +1,7 @@
 import "./App.css";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
+import Resume from "./components/Resume.jsx";
 import Experience from "./components/Experience.jsx";
 import NavbarMain from "./navbar.jsx";
 import React from "react";
@@ -14,14 +15,9 @@ function App() {
       </div>
       <br />
       <div className="main-div">
-        <br />
-        <Skills />
-        <br />
-        <div className="experience-div">
-          <Experience />
+        <div className="resume-div">
+          <Resume />
         </div>
-        <br />
-        <Contact />
         <br />
       </div>
     </div>

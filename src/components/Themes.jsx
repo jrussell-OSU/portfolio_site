@@ -6,7 +6,7 @@ const buttonTheme = createTheme({
       main: "#e4e5e6",
     },
     secondary: {
-      main: "#282C33",
+      main: "#6699CC",
       darker: "#979797",
     },
   },
@@ -15,11 +15,11 @@ const buttonTheme = createTheme({
       defaultProps: {
         size: "large",
         fullwidth: "true",
-        color: "primary",
+        //color: "primary",
         variant: "contained",
       },
       sx: {
-        bgcolor: "secondary",
+        //bgcolor: "secondary",
       },
     },
   },
