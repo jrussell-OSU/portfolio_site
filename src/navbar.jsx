@@ -9,16 +9,16 @@ const NavbarMain = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand className="navbar-title" href="#home">
-          Jacob Russell's Portfolio
+          Jacob Russell
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="https://www.linkedin.com/in/jacob-russell-49768326a/">
+            <Nav.Link href="https://www.linkedin.com/in/jrussell86">
               LinkedIn
             </Nav.Link>
             <NavDropdown title="My Work" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://www.jacobrussell.me">
+              <NavDropdown.Item href="https://conways-game-of-life-386401.uk.r.appspot.com/">
                 Game of Life
               </NavDropdown.Item>
               <NavDropdown.Divider />

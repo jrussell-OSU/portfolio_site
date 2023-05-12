@@ -1,7 +1,7 @@
 import React from "react";
 import { Page, Document } from "react-pdf/dist/esm/entry.webpack5";
 import Collapsible from "react-collapsible";
-import { Button, ThemeProvider, Tooltip } from "@mui/material";
+import { Button, ThemeProvider } from "@mui/material";
 import buttonTheme from "./Themes.jsx";
 import resume from '../resume.pdf'
 
