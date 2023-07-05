@@ -9,7 +9,6 @@ const NavbarMain = () => {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand className="navbar-title" href="#home">
-          Jacob Russell
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

@@ -3,11 +3,15 @@ import { createTheme } from "@mui/material";
 const buttonTheme = createTheme({
   palette: {
     primary: {
-      main: "#e4e5e6",
+      main: "#008F11",
     },
     secondary: {
       main: "#6699CC",
       darker: "#979797",
+    },
+    custom: {
+      main: "#e4e5e6100",
+      contrastText: "rgba(0, 0, 0, 0.87)",
     },
   },
   components: {
@@ -15,8 +19,7 @@ const buttonTheme = createTheme({
       defaultProps: {
         size: "large",
         fullwidth: "true",
-        //color: "primary",
-        variant: "contained",
+        color: "primary",
       },
       sx: {
         //bgcolor: "secondary",

@@ -23,6 +23,8 @@
     "Docker",
     "Agile"
   ],
+  "intro":
+    "My name is Jacob Russell, and I'm a software developer with a B.S. in Computer Science.",
   "currentExperience": [
       {
           "name": "BELCo",
@@ -83,5 +85,9 @@
   "contact": [
     "jacob.r.russell@gmail.com",
     "russelj2@oregonstate.edu"
-  ]
+  ],
+  "links":
+    {
+    "gameOfLife": "https://www.jacobrussell.me"
+    }
 }
