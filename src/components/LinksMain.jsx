@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../App.css';
 
 const info = require("../info.json");
@@ -19,12 +19,12 @@ const LinksMain = (props) => {
         href={require("../resume.pdf")}
         download="resume"
       >
-        Download Resume
+        Download my resume
         <span className="cursor">{String.fromCharCode(0x2588)}</span>
       </a>
       <br />
       <a className="screen-link" href={info.links.gameOfLife}>
-        Conway's Game of Life
+        Game of life
         <span className="cursor">{String.fromCharCode(0x2588)}</span>
       </a>
     </div>

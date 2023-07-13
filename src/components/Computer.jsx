@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import '../App.css';
 import LinksMain from './LinksMain';
@@ -9,7 +9,6 @@ import {
   Box,
 } from '@mui/material'
 // import styled from '@emotion/styled'
-import '@fontsource/roboto'
 import { green, purple } from '@mui/material/colors'
 import ComputerImage from './computer.png'
 

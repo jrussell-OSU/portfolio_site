@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #282c33 !important;
+  background-color: #68696b !important;
   /*background-image: url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
   background-image: url('https://unsplash.com/photos/k9TDpGMDavs/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTcyfHx0ZWNoJTIwYWJzdHJhY3R8ZW58MHx8fHwxNjgwNTY4ODc0&force=true&w=2400');
   background-image: url('https://unsplash.com/photos/VFiQvZPlm2k/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fHJldHJvJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNjg3NDc2ODc4fDA&force=true&w=1920');*/
@@ -15,7 +15,8 @@ body {
   margin: 0px;
   background-attachment: fixed;
   overflow: hidden;
-  /*background from https://pl.pinterest.com/pin/575968239848396684/*/
+background: rgb(133,215,169);
+background: radial-gradient(circle, rgba(133,215,169,1) 0%, rgba(35,177,103,1) 100%);
   /*background-image: url('wood-panel.png');
   background-repeat: repeat;*/
 }
@@ -87,14 +88,13 @@ body {
 
 .intro-div {
   height: 100px;
-  color: rgb(236, 234, 234);
+  color: rgb(46, 212, 60);
   /*
   color: rgb(192, 192, 192);
 
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1.5em;*/
   font: 1.2rem Inconsolata, monospace;
-
 }
 
 .computer-div {
@@ -124,13 +124,13 @@ body {
 
 .screen-link:hover {
   text-decoration: none;
-  color: rgb(236, 234, 234)
+  color: rgb(46, 212, 60)
   !important;
 }
 
 .screen-link {
   text-decoration: none;
-  color: rgb(236, 234, 234);
+  color: rgb(46, 212, 60);
   /*font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1.5em;*/
   font: 1.2rem Inconsolata, monospace;
