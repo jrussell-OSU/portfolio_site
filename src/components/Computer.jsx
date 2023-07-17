@@ -10,9 +10,9 @@ import {
 } from '@mui/material'
 // import styled from '@emotion/styled'
 import { green, purple } from '@mui/material/colors'
-import ComputerImage from './computer.png'
 
 const info = require("../info.json");
+const resume = require("../resume.pdf");
 
 const theme = createTheme({
   palette: {
@@ -35,41 +35,27 @@ const Computer = () => {
 
   return (
     <div className="Computer">
-      <ThemeProvider theme={theme}>
-        <Box
-          className="Computer"
-          sx={{
-            width: 468,
-            height: 505,
-            backgroundImage: `url(${ComputerImage})`,
-          }}
-        >
-          <div className="screen-div">
-            <div className="intro-div">
-              <Typewriter
-                options={{
-                  delay: 30,
-                  cursor: String.fromCharCode(0x2588), // █ character
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(info.intro)
-                    .callFunction(() => {
-                      const cursor =
-                        document.getElementsByClassName(
-                          "Typewriter__cursor"
-                        )[0];
-                        cursor.style = "opacity:0";
-                        setTimeout(() => setVisibility("visible"), 500);
-                    })
-                    .start();
-                }}
-              />
-            </div>
-            <LinksMain visibility={visibility} />
-          </div>
-        </Box>
-      </ThemeProvider>
+      <div className="screen-div">
+        <div className="typewriter-div">
+          <Typewriter
+            options={{
+              delay: 30,
+              cursor: String.fromCharCode(0x2588), // "█"
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(info.intro)
+                .typeString("<br /><br />")
+                .typeString(
+                  `<a href=${resume} download="resume">Download my resume </a><br />`)
+                .typeString(
+                  `<a href=${info.links.gameOfLife}>Game of life</a><br />`)
+                .start();
+            }}
+          />
+        </div>
+        <LinksMain visibility={visibility} />
+      </div>
     </div>
   );
 };

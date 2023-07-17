@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background-color: #68696b !important;
+  background-color: #414242 !important;
+
   /*background-image: url('https://images.unsplash.com/photo-1557264337-e8a93017fe92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
   background-image: url('https://unsplash.com/photos/k9TDpGMDavs/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTcyfHx0ZWNoJTIwYWJzdHJhY3R8ZW58MHx8fHwxNjgwNTY4ODc0&force=true&w=2400');
   background-image: url('https://unsplash.com/photos/VFiQvZPlm2k/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fHJldHJvJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNjg3NDc2ODc4fDA&force=true&w=1920');*/
@@ -13,12 +14,11 @@ body {
   min-height: 100%;
   width: 100%;
   margin: 0px;
+  background: rgb(50,53,70);
+  background: linear-gradient(90deg, rgba(50,53,70,1) 58%, rgba(66,69,85,1) 69%, rgba(50,53,70,1) 80%);
   background-attachment: fixed;
   overflow: hidden;
-background: rgb(133,215,169);
-background: radial-gradient(circle, rgba(133,215,169,1) 0%, rgba(35,177,103,1) 100%);
-  /*background-image: url('wood-panel.png');
-  background-repeat: repeat;*/
+
 }
 
 .App {
@@ -26,8 +26,6 @@ background: radial-gradient(circle, rgba(133,215,169,1) 0%, rgba(35,177,103,1) 1
 
 .main-div {
 }
-
-
 
 .resume-div {
   padding-left: 15px;
@@ -37,72 +35,12 @@ background: radial-gradient(circle, rgba(133,215,169,1) 0%, rgba(35,177,103,1) 1
   padding-top: 10px;
 }
 
-.skills-list, .experience-list, .contact-list {
-  display: flex;
-  color: #f1f1f1;
-  align-items: left;
-  text-align: left;
-  font-weight: 600;
-  padding-left: 15px;
-  font-size: 1.5em;
-}
-
-.skills, .experience, .contact, .prior-experience {
-  list-style: none;
-  text-align: left;
-  padding-left: 10px;
-  font-size: .70em;
-}
-
-.resume-button-div {
-}
-
-.download-button-div {
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.button-main {
-  border: none;
-  border-radius: 15px;
-  color: #282C33;
-}
-
-.button-secondary {
-  border: none;
-  border-radius: 15px;
-  color: #282C33;
-}
-
-.prior-experience-button{
-  background-color: #979797;
-  border: none;
-  border-radius: 15px;
-  color: #282C33;
-  font-size: .75em;
-}
-
-.navbar-title {
-  font-size: 1.5em !important;
-}
-
-.intro-div {
-  height: 100px;
-  color: rgb(46, 212, 60);
-  /*
-  color: rgb(192, 192, 192);
-
+.typewriter-div {
+  color: rgb(86, 194, 95);
+  font-size: 1.4rem;
+  /*font-family: 'TheGoodMonolith', sans-serif;*/
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 1.5em;*/
-  font: 1.2rem Inconsolata, monospace;
-}
-
-.computer-div {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  text-decoration: none !important;
 }
 
 .Computer {
@@ -111,35 +49,32 @@ background: radial-gradient(circle, rgba(133,215,169,1) 0%, rgba(35,177,103,1) 1
 
 .screen-div {
   margin: auto;
-  margin-left: 41px;
-  width: 400px;
-  margin-top: 40px;
-  height: 344px;
-  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px;
+  align-items: left;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 30px;
+  margin-right: 50px;
 
 }
 
 .screen-link:hover {
   text-decoration: none;
-  color: rgb(46, 212, 60)
+  color: rgb(86, 194, 95)
   !important;
 }
 
-.screen-link {
-  text-decoration: none;
-  color: rgb(46, 212, 60);
-  /*font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 1.5em;*/
-  font: 1.2rem Inconsolata, monospace;
+a {
+  text-decoration: none !important;
+  color: rgb(86, 194, 95) !important;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 1.4rem;
+  font-weight: 300 !important;
 }
 
 .Typewriter__cursor {
   animation-name: typewriter-cursor !important;
-  animation-duration: .15s !important;
-  animation-iteration-count: 21 !important;
+  animation-duration: .5s !important;
+  /*animation-iteration-count: 21 !important;*/
 }
 
 @keyframes typewriter-cursor {

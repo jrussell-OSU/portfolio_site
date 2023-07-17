@@ -6,13 +6,11 @@ const info = require("../info.json");
 const LinksMain = (props) => {
 
   return (
-    <div
-      className="links-main"
-      style={
-        {
-          visibility: props.visibility
-        }
-      }
+    <div className="links-main"
+      style=
+      {{
+        visibility: props.visibility,
+      }}
     >
       <a
         className="screen-link"
@@ -20,12 +18,10 @@ const LinksMain = (props) => {
         download="resume"
       >
         Download my resume
-        <span className="cursor">{String.fromCharCode(0x2588)}</span>
       </a>
       <br />
       <a className="screen-link" href={info.links.gameOfLife}>
         Game of life
-        <span className="cursor">{String.fromCharCode(0x2588)}</span>
       </a>
     </div>
   );

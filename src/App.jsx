@@ -9,11 +9,6 @@ function App() {
       <div className="computer-div">
         <Screen />
       </div>
-      <br />
-      <div className="main-div">
-
-        <br />
-      </div>
     </div>
   );
 }
