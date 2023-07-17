@@ -42,14 +42,23 @@ const Computer = () => {
               delay: 30,
               cursor: String.fromCharCode(0x2588), // "█"
             }}
+            //Typing effect for intro and relevant links
             onInit={(typewriter) => {
               typewriter
                 .typeString(info.intro)
                 .typeString("<br /><br />")
                 .typeString(
-                  `<a href=${resume} download="resume">Download my resume </a><br />`)
+                  `<a href=${resume} download="resume">Resume</a><br />`
+                )
                 .typeString(
-                  `<a href=${info.links.gameOfLife}>Game of life</a><br />`)
+                  `<a href=${info.links.github}>GitHub</a><br />`
+                )
+                .typeString(
+                  `<a href=${info.links.linkedIn}>LinkedIn</a><br />`
+                )
+                .typeString(
+                  `<a href=${info.links.gameOfLife}>Game of life</a><br />`
+                )
                 .start();
             }}
           />
